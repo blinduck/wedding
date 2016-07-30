@@ -17,6 +17,7 @@ body {
 #main-header {
     font-size: 4em;
     color: black;
+    margin-bottom: 35px;
 }
 
 #nav {
