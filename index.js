@@ -3,9 +3,10 @@ var BasicDataComponent = {
     view: function () {
        return (m('div', [
            m("div", [
-               m("img#main-image", {src:'https://padlet-uploads.s3.amazonaws.com/prod/71384074/2b5377409403c9d04357b543bcc630832112f26e/1092a8130bea0d9a4025ca7155c1d85b.gif'}),
+               //m("img#main-image", {src:'https://padlet-uploads.s3.amazonaws.com/prod/71384074/2b5377409403c9d04357b543bcc630832112f26e/1092a8130bea0d9a4025ca7155c1d85b.gif'}),
+               m("img#main-image", {src:'https://padlet-uploads.s3.amazonaws.com/prod/71384074/9fae251dfbec5c41d45913d69fc341ed53b0e5a1/e82729827a0a6b79bd8db37536a15ad0.gif'}),
                m("h3#main-header.cursive.text-center", m.trust('Deepan & Julianne <br> Get Hitched')),
-               m("div.text-center.lead", [
+               m("div.text-center", [
                    m("p", "Sunday, November 6th 2016"),
                    m("p", "Open Farm Community"),
                    m("p", "130E Minden Rd, Singapore 248819"),
