@@ -4,17 +4,17 @@ var BasicDataComponent = {
 
     },
     view: function () {
-       return (m('div.row', [
-           m("div.col-xs-12", [
+       return (m('div', [
+           m("div", [
                m("img#main-image.img-rounded", {src:'hitched.gif'}),
                m("h3#main-header.cursive.text-center", m.trust('Deepan & Julianne <br> Get Hitched')),
                m("div.text-center.lead", [
-                   m("p", "Friday, November 6th 2016"),
+                   m("p", "Sunday, November 6th 2016"),
                    m("p", "Open Farm Community"),
                    m("p", "130E Minden Rd, Singapore 248819"),
                    m("p", "Please arrive by 5. Ceremony starts at 530."),
                    m("p", "Outdoor solemnization followed by indoor dinner"),
-                   m('p', "Free Flow Beer & Wine (Don't drive?)"),
+                   m('p', "Free Flow Beer & Wine (Consider not driving)"),
                ]),
 
            ])

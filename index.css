@@ -6,8 +6,12 @@ body {
     color: dimgray;
 }
 
+.text-center {
+    text-align: center;
+}
+
 #main-image {
-    max-width: 50%;
+    max-width: 100%;
     max-height: 500px;
     display: block;
     margin-left: auto;
