@@ -25,6 +25,10 @@ body {
     margin-bottom: 35px;
 }
 
+#basic-data {
+    padding-bottom: 60px;
+}
+
 #nav {
     text-align: center;
     padding: 30px 0px 70px 0;
